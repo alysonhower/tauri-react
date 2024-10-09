@@ -4,7 +4,9 @@ import PDFViewer from "./PDFViewer";
 function App() {
   return (
     <main className="w-screen h-screen flex flex-col">
-      <PDFViewer />
+      <div className="w-1/2 h-full">
+        <PDFViewer />
+      </div>
     </main>
   );
 }
